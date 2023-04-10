@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     android:background="#AFEEEE"
     tools:context=".MainActivity">
+      <TextView
+        android:id="@+id/txtbang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:text="Bảng Tính Tiền Điện"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
     <TextView
         android:id="@+id/txtbangtinhtiendien"
         android:layout_width="fill_parent"
